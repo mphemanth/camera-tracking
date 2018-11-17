@@ -1,0 +1,29 @@
+<style type="text/css">
+@font-face {
+    font-family: OpenSans-Light;
+    src: url('/static/opensans/OpenSans-Light.ttf')
+}
+
+@font-face {
+    font-family: Signika-Light;
+    src: url('/static/Signika/Signika-Light.ttf')
+}
+
+@font-face {
+    font-family: Gloria;
+    src: url('/static/Gloria/Gloria.ttf')
+}
+
+h2.customfont { 
+    font-family: Signika-Light;
+}
+
+	html, body {
+			width: 100%;
+			height: 100%;
+			margin: 0px;
+			border: 0;
+			overflow: hidden; /*  Disable scrollbars */
+			display: block;  /* No floating content on sides */
+		}
+</style>
